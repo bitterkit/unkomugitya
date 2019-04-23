@@ -18,7 +18,7 @@ int main(){
         b+=a[l];
     } 
     b /= i;
-    for (int l = 0; l < i; l++){
+    for(int l=0; l<i; l++){
         c += sqr(a[l] - b);
     }
     c/=i;
